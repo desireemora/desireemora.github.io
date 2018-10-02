@@ -11,6 +11,12 @@ footer
   overflow: hidden;
 }
 
+body{
+
+  margin:60px
+
+}
+
 #primary_nav_wrap
 {
 	margin-top:15px
