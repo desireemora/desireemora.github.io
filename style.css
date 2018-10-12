@@ -11,6 +11,12 @@ footer
   overflow: hidden;
 }
 
+img.header_picture{
+  width: 90%;
+  height: 90%;
+
+}
+
 div.main_text{
 
   margin-left: 60px;
