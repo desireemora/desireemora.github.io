@@ -17,6 +17,26 @@ img.header_picture{
 
 }
 
+img.me{
+  transform: rotate(90deg);
+  margin-left: 0%;
+  margin-top: 12%;
+
+}
+
+div.about_me_text{
+
+  margin-left: 27%;
+  margin-top: -27%;
+  margin-right: 10%;
+  margin-bottom: 15%;
+
+  font-size: 12;
+  font: font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:normal;
+
+}
+
 div.main_text{
 
   margin-left: 60px;
