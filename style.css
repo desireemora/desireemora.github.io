@@ -15,11 +15,10 @@ footer
 img.header_picture{
   width: 90%;
   height: 90%;
-
 }
 
 img.me{
-  transform: rotate(90deg);
+  
   margin-left: 60px;
   margin-top: 150px;
 
