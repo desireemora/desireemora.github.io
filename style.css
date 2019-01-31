@@ -31,6 +31,8 @@ div.about_me_text{
   margin-right: 60px;
   margin-bottom: 100px;
   position: relative;
+  background-color:#47AFAE;
+  padding: 10px;
 
   font-size: 12;
   font: font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
