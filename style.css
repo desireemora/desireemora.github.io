@@ -2,14 +2,33 @@ footer
 {
   background-color: #49B1AF;
   text-indent: 20px;
+  tex
   text-align:left;
   position: relative;
   left: 0;
   bottom: 0;
-  height: 49px;
+  height: 70px;
   width: 100%;
   overflow: hidden;
   margin-top: 300px;
+}
+
+a.poetry{
+  margin-left: 20px;
+}
+
+a:link.poetry{
+  color:#49B1AF;
+}
+
+a:visited.poetry{
+  color:#49B1AF;
+
+}
+
+a:hover.poetry{
+  color:gold;
+
 }
 
 img.header_picture{
