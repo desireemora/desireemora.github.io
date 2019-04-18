@@ -69,9 +69,18 @@ div.main_text{
   font-size: 12;
   font: font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight:normal;
+}
 
-
-
+div.project_text{
+  background-color: #f4bedb;
+  margin:10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 10px;
+  font-size: 12;
+  font: font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:normal;
 }
 
 img.art_page_images{
