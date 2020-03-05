@@ -110,6 +110,10 @@ body{
 
 }
 
+body.Draw{
+    margin:0
+}
+
 #primary_nav_wrap
 {
 	margin-top:15px
