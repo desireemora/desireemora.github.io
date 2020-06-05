@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script>
+    var sound = new Audio();
+    sound.src = "cv.mp3";
+
+
+    function changeImage() {
+
+        if (document.getElementById("redBtn").src == "assets/img/unClicked.png")
+        {
+            sound.play();
+            document.getElementById("redBtn").src = "assets/img/clicked.png";
+        }
+        else
+        {
+            document.getElementById("redBtn").src = "assets/img/unClicked.png";
+        }
+    }
+
+
+    </script>
+    <title>Cardi B</title>
+
+    <script src="p5.min.js"></script>
+    <script src="p5.sound.js"></script>
+
+    <p style = "background-color: #E5E5E5;margin:0px;" ><a href="index.html">Home</a></p>
+
+    <link href = "style.css" rel = "stylesheet">
+    <style> *{ cursor: url(assets/cursor/mouse.cur), default;}</style>
+
+  </head>
+  <body>
+    <img class ="center" id = "redBtn" src = "assets/img/unClicked.png" onmousedown="sound.play()" onclick="this.src='assets/img/clicked.png'" onmouseout="this.src='assets/img/unClicked.png'" alt ="soundBtn">
+
+
+  </body>
+</html>
