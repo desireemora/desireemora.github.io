@@ -11,7 +11,7 @@ function setup() {
 function Draw() {
   background(255);
 }
-/*function mousePressed() {
+function mousePressed() {
   if (song.isPlaying()) {
     // .isPlaying() returns a boolean
     song.stop();
@@ -25,4 +25,4 @@ function Draw() {
 function btnClick (){
   song.play();
 }
-*/
+
