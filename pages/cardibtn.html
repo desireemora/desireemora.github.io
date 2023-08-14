@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Cardi B</title>
+    <link href = "../style/style.css" rel = "stylesheet">
+  </head>
+
+  <body>
+    <audio id="caronaVirus">
+      <source src = "../assets/sound/cv.mp3" type="audio/mp3">
+      Your browser does not supprt this audio element [mp3].
+    </audio>
+
+    <img class ="center" id = "redBtn" src = "../assets/img/unClicked.png" onmousedown="playAudio()" onclick="this.src='../assets/img/clicked.png'" onmouseout="this.src='../assets/img/unClicked.png'" alt ="soundBtn">
+    <a href="../index.html">Home</a>
+    
+    <!--js Script for Audio-->
+    <script src="../js/cardibtn.js"></script>
+  </body>
+</html>

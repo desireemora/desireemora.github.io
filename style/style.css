@@ -1,3 +1,15 @@
+.sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #ff69b4; /* Hot Pink */
+    border-radius: 50%; /* Makes the element circular */
+    pointer-events: none; /* So the cursor doesn't interact with sparkles */
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+    z-index: 9999; /* Ensuring it's above other content */
+}
+
 @keyframes splash {
     0% {
         transform: scaleY(1) scaleX(1);
