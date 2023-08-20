@@ -95,6 +95,9 @@ button {
     background-color: #eee;
     border: none;
     cursor: pointer;
+    color: hotpink;
+    font-size: larger;
+    font-weight: bolder;
     width: 100%; /* adjust to desired square size */
     height: 100px; /* adjust to desired square size */
     transition: background-color 0.3s ease-in-out;
@@ -102,4 +105,9 @@ button {
 
 button:hover {
     background-color: hotpink;
+    color: white;
+}
+
+.home-header{
+    margin-bottom: 10px;
 }
