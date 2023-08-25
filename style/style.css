@@ -10,44 +10,10 @@
     z-index: 9999; /* Ensuring it's above other content */
 }
 
-@keyframes splash {
-    0% {
-        transform: scaleY(1) scaleX(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scaleY(0.5) scaleX(2);
-        opacity: 0.6;
-    }
-    100% {
-        transform: scaleY(0.2) scaleX(3);
-        opacity: 0;
-    }
-}
-
-.raindrop {
-    position: absolute;
-    top: -15px; /* Updated: Start from the top of the screen */
-    width: 2px;
-    background-color: #ff69b4; /* Hot pink color */
-    opacity: 0.7;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 @font-face {
     font-family: 'Arial';
     /* Assuming you have a source for the Futura font */
     src: url('path-to-your-futura-font-file.woff2') format('woff2');
-}
-canvas {
-    position:absolute;
-    width:100%;
-    height:100%;
 }
 
 body {
@@ -58,12 +24,14 @@ body {
     margin: auto;
     padding: 20px;
 }
+
 img {
     width: 100%;
     filter: sepia(50%) hue-rotate(270deg); /* Pink tint */
     border-radius: 10px;
     margin: 20px 0;
 }
+
 a {
     color: #ff79c6; /* Pastel goth link color */
     text-decoration: none;
@@ -74,8 +42,9 @@ a:hover {
 }
 
 h1 {
-   font-size: 8.5vmin; 
-   margin: auto;
+    text-align: center;
+    font-size: 8.5vmin; 
+    margin: auto;
 }
 
 h2 {
