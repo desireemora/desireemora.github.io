@@ -80,6 +80,10 @@ h2 {
     height: 65%;
 }
 
+.des-drums { 
+    filter: sepia(50%) hue-rotate(270deg);
+}
+
 /*Cardi B button image styles */
 .cardibtn {
     display: block;
