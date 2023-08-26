@@ -5,7 +5,7 @@ let g_array = [0,127,255,255,0,43,0];
 let b_array = [0,0,0,0,255,95,255];
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth/2.4, windowHeight/2);
   frameRate(fr);
 
   rand = random([0,1,2,3,4,5,6]);
@@ -73,5 +73,5 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth/2.4, windowHeight/2);
 }
