@@ -25,9 +25,14 @@ body {
     padding: 20px;
 }
 
+.draw {
+    height: 50%;
+    width: 50%;
+}
+
 img {
     width: 100%;
-    filter: sepia(50%) hue-rotate(270deg); /* Pink tint */
+    /* Pink tint in style of specific images */
     border-radius: 10px;
     margin: 20px 0;
 }
@@ -57,6 +62,30 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* adjust for spacing between buttons */
+}
+
+/*Button grid menu for bigger items*/
+.grid-menu-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* adjust for spacing between buttons */
+}
+
+.des-logo-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 65%;
+    height: 65%;
+}
+
+/*Cardi B button image styles */
+.cardibtn {
+    display: block;
+    margin: auto; 
+    filter: sepia(50%) hue-rotate(270deg);
+    width: 90%;
 }
 
 /* Button Styles*/

@@ -46,3 +46,10 @@ function random_bg_color() {
     var z = Math.floor(Math.random() * 256);
     return bgColor = "rgb(" + x + "," + y + "," + z + ")";
 }
+
+//Cardi Button Fucntions
+var audio = document.getElementById('caronaVirus');
+
+function playAudio(){
+  audio.play();
+}

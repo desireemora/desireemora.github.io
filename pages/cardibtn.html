@@ -9,11 +9,14 @@
       <source src = "../assets/sound/cv.mp3" type="audio/mp3">
       Your browser does not supprt this audio element [mp3].
     </audio>
+    
+    <div class="home-header">
+      <a href = '../index.html'><button>HOME</button></a>
+    </div>
 
-    <img style ="margin: auto;", src = "../assets/img/unClicked.png" onmousedown="playAudio()" onclick="this.src='../assets/img/clicked.png'" onmouseout="this.src='../assets/img/unClicked.png'" alt ="soundBtn">
-    <button><a href="../index.html"><h2>Home</h2></a></button>
+    <img class = "cardibtn" src = "../assets/img/unClicked.png" onmousedown="playAudio()" onclick="this.src='../assets/img/clicked.png'" onmouseout="this.src='../assets/img/unClicked.png'" alt ="soundBtn">
     
     <!--js Script for Audio-->
-    <script src="../js/cardibtn.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
